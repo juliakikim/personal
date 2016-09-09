@@ -27,7 +27,7 @@ li {
 }
 
 li a {
-  font-family: 'Courgette', serif;
+  font-family: 'Baloo', arial;
   display: inline-block;
   color: #FEFCFD;
   text-decoration: none;
@@ -40,18 +40,26 @@ li a:hover {
 
 .welcome-background {
   background-color: #E3E3F2;
-  padding: 50px 0;
+  padding: 30px;
+}
+
+.welcome-title{
+  font-family: 'Baloo', arial;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
 }
 
 .welcome-paragraph {
+  font-family: 'Indie Flower', arial;
   font-size: 16px;
-  padding: 0 30px;
   text-align: center;
 }
 
 .space {
   background-color: #FFFFFF;
-  padding: 50px;
+  padding: 30px;
 }
 
 .resume-background {
@@ -60,6 +68,7 @@ li a:hover {
 }
 
 .resume-title{
+  font-family: 'Baloo', arial;
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
@@ -68,14 +77,16 @@ li a:hover {
 
 .resume-paragraph{
   text-align: center;
+  font-family: 'Baloo', arial;
 }
 
 .contact-background{
   background-color: #CBC8C9;
-  padding: 30px 0;
+  padding: 30px;
 }
 
 .contact-title{
+  font-family: 'Baloo', arial;
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
