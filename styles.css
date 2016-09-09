@@ -1,5 +1,9 @@
 @font-face { font-family: florencesans; src: url('florencesans.shaded.ttf'); }
 
+.home{
+  background-color: #EBEBD3;
+}
+
 .home-title {
   font-family: 'florencesans', serif;
   font-size: 100px;
