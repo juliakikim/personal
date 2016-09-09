@@ -47,7 +47,6 @@ li a:hover {
   font-size: 16px;
   padding: 0 30px;
   text-align: center;
-  font-family: 'Quintessential', serif;
 }
 
 .space {
@@ -57,14 +56,18 @@ li a:hover {
 
 .resume-background {
   background-color: #DDC7C1;
+  padding: 30px;
 }
 
 .resume-title{
-  font-family: 'Quintessential', cursive;
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
   padding-bottom: 30px;
+}
+
+.resume-paragraph{
+  text-align: center;
 }
 
 .contact-background{
@@ -72,12 +75,7 @@ li a:hover {
   padding: 30px 0;
 }
 
-.contact-paragraph th {
-  padding: 0 100px;
-}
-
-.contact-us-title{
-  font-family: 'Quintessential', cursive;
+.contact-title{
   text-align: center;
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
