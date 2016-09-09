@@ -1,0 +1,141 @@
+@font-face { font-family: florencesans; src: url('florencesans.shaded.ttf'); }
+
+.home-title {
+  font-family: 'florencesans', serif;
+  font-size: 100px;
+  padding-top: 80px;
+  text-shadow: 2px 2px 2px #aaa;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #D8BFD8;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  position: center;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: center;
+}
+
+li a {
+  font-family: 'Courgette', serif;
+  display: inline-block;
+  color: #FFFAF0;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+li a:hover {
+  background-color: #8783D1;
+}
+
+.welcome-background {
+  background-color: #E6E6FA;
+  padding: 50px 0;
+}
+
+.rating_img{
+  padding: 30px;
+  text-align: center;
+}
+
+.welcome-paragraph {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Quintessential', serif;
+}
+
+.gallery-background {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.gallery-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
+}
+
+.demo_img img {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+}
+
+.services-background{
+  background-color: #FFF0F5;
+  padding: 50px 0;
+}
+
+.services-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
+}
+
+.services-list-1{
+  font-size: 24px;
+  font-family: 'Quintessential', serif;
+}
+
+
+.services-list-2{
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: 'Quintessential', serif;
+}
+
+.services-list a{
+  text-align: center
+}
+
+.contact-us-background{
+  background-color: #FFE4E1;
+  padding: 50px 0;
+}
+
+.contact-us-paragraph th {
+  padding: 0 100px;
+}
+
+.contact-us-map-title {
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0;
+}
+
+.contact-us-title{
+  font-family: 'Quintessential', cursive;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px #aaa;
+  padding-bottom: 30px;
+}
+
+.contact-us-map{
+  width: 100%;
+}
+
+/* smaller screen */
+@media screen and (max-width : 730px) {
+
+}
+
+/* for mobile */
+@media screen and (max-width : 480px)  {
+
+}
