@@ -1,9 +1,5 @@
 @font-face { font-family: florencesans; src: url('florencesans.shaded.ttf'); }
 
-.home{
-  background-color: #EBEBD3;
-}
-
 .home-title {
   font-family: 'florencesans', serif;
   font-size: 100px;
@@ -14,7 +10,7 @@
 
 ul {
   list-style-type: none;
-  background-color: #ABEBD2;
+  background-color: #E0D0C1;
   margin: 0;
   padding: 0;
   top: 0;
@@ -39,31 +35,31 @@ li a {
 }
 
 li a:hover {
-  background-color: #9DCBBA;
+  background-color: #F7D4BC;
 }
 
 .welcome-background {
-  background-color: #FEFCFD;
+  background-color: #E3E3F2;
   padding: 50px 0;
-}
-
-.rating_img{
-  padding: 30px;
-  text-align: center;
 }
 
 .welcome-paragraph {
-  font-size: 24px;
+  font-size: 16px;
+  padding: 0 30px;
   text-align: center;
   font-family: 'Quintessential', serif;
 }
 
-.gallery-background {
-  padding: 50px 30px;
-  text-align: center;
+.space {
+  background-color: #FFFFFF;
+  padding: 50px;
 }
 
-.gallery-title{
+.resume-background {
+  background-color: #DDC7C1;
+}
+
+.resume-title{
   font-family: 'Quintessential', cursive;
   text-align: center;
   font-size: 48px;
@@ -71,55 +67,13 @@ li a:hover {
   padding-bottom: 30px;
 }
 
-.demo_img img {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin: 15px;
-}
-
-.services-background{
-  background-color: #FEFCFD;
-  padding: 50px 0;
-}
-
-.services-title{
-  font-family: 'Quintessential', cursive;
-  text-align: center;
-  font-size: 48px;
-  text-shadow: 2px 2px 2px #aaa;
-  padding-bottom: 30px;
-}
-
-.services-list-1{
-  font-size: 24px;
-  font-family: 'Quintessential', serif;
-}
-
-
-.services-list-2{
-  padding-top: 15px;
-  font-size: 18px;
-  font-family: 'Quintessential', serif;
-}
-
-.services-list a{
-  text-align: center
-}
-
-.contact-us-background{
-  background-color: #FEFCFD;
-  padding: 50px 0;
-}
-
-.contact-us-paragraph th {
-  padding: 0 100px;
-}
-
-.contact-us-map-title {
-  font-family: 'Quintessential', cursive;
-  text-align: center;
-  font-size: 24px;
+.contact-background{
+  background-color: #CBC8C9;
   padding: 30px 0;
+}
+
+.contact-paragraph th {
+  padding: 0 100px;
 }
 
 .contact-us-title{
@@ -130,9 +84,6 @@ li a:hover {
   padding-bottom: 30px;
 }
 
-.contact-us-map{
-  width: 100%;
-}
 
 /* smaller screen */
 @media screen and (max-width : 730px) {
