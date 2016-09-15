@@ -77,7 +77,7 @@ li a:hover {
 
 .resume-paragraph{
   text-align: center;
-  font-family: 'Baloo', arial;
+  font-family: 'Indie Flower', arial;
 }
 
 .contact-background{
@@ -91,6 +91,11 @@ li a:hover {
   font-size: 48px;
   text-shadow: 2px 2px 2px #aaa;
   padding-bottom: 30px;
+}
+
+.contact-paragraph{
+  text-align: center;
+  font-family: 'Indie Flower', arial;
 }
 
 
